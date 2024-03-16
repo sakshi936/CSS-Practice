@@ -1,0 +1,33 @@
+div{
+
+    height: 200px;
+    width: 200px;
+    background-color: #8ec3e7;
+    border: 2px solid black;
+    transition-property: all;
+    transition-duration: 1s;
+    display: inline-block;
+}
+
+#D1{
+    transition-timing-function: steps(5);
+}
+#D2{
+    transition-timing-function: ease-in;
+}
+#D3{
+    transition-timing-function: ease-in-out;
+    transition-delay: 1s;
+}
+
+div:hover{
+    background-color: #0a19c6;
+    color: aliceblue;
+    transform: skew(45deg);
+    
+}
+
+div:active{
+
+    background-color: rgb(133, 37, 37);
+}
