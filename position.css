@@ -1,0 +1,47 @@
+#div1{
+    /* background-image: url("sun.jpg"); */
+    /* background-size: cover; */
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    position: static; 
+}
+#div2{
+    background-color: green;
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+   position: relative;   /* related position to it self */
+    top: 50px;
+    z-index: 1;    /*  For a positioned box, the 'z-index' property specifies the stack level of the box in the current stacking context and whether the box establishes a local stacking context. */
+
+
+}
+#div3{
+    background-color: blue;
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    position: absolute;   /* related position to it clasest ancetor */
+    top: 200px;
+    left: 40px;
+}
+#div4{
+    background-color: rgb(209, 225, 62);
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    position: fixed;   /* related to browser fixed position */
+    top: 0;
+    right: 0;
+}
+#div5{
+    background-color: rgb(188, 43, 123);
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    position: sticky;   /* psition based on users score position */
+    top: 50px;
+    bottom: 0;
+}
