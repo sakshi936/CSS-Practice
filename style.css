@@ -1,0 +1,65 @@
+*{
+    color: rgb(10, 10, 10);
+    background-color: white;
+}
+
+#box{
+    background-color: #0000ff;
+    color: red;
+    font-size: large;
+    font-style: italic;
+    /* line-height: 0cqi; */
+    /* text-transform: uppercase; to change*/ 
+}
+
+.heading{
+    color: red;
+}
+ button{
+    /* color: green; */
+ background-color: yellow;
+} 
+
+/* -----------------------------------Text aligment-------------------------------- */
+
+
+.text{
+    text-align: justify;
+    
+}
+
+ #head{
+    text-align: center;
+    text-decoration: red wavy underline;
+}
+
+a{
+    text-decoration: none;
+}
+
+#h1{
+    font-weight: 100;
+    font-family: cursive;
+   
+}
+
+#h2{
+    font-weight: normal;
+}
+#h3{
+    font-weight: bold;
+}
+#h4{
+    font-weight: 900;
+}
+
+
+#para1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#one{
+    font-size: 100px;
+}
+
+
