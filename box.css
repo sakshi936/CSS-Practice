@@ -1,0 +1,105 @@
+body{
+    background: #a8a7a7;
+    /* background-image: url("nature.jpg"); */
+    /* background-size: cover; */
+}
+/* div{
+    height: 250px;
+    width: 250px;
+    background-color: palevioletred;
+    border-width: 2px ;
+    border-style: solid;
+    border-color: blanchedalmond;
+
+} */
+
+h1{
+    height: 50px;
+    width: 150px;
+    background-color: rgb(152, 199, 143);
+    border-width: 2px ;
+    border-style: solid;
+    border-color: rgb(16, 16, 16);
+
+    /* short hand padding it means TRBL  */
+    padding: 50px;  /* 50px in each diarection */
+
+    /* OR */
+    /* padding: 10px 20px 10px 20px;  TRBL*/
+    margin: 50px;/*    Same as padding it out size of div*/
+
+}
+
+p{
+    color: azure;
+    height: 100px;
+    width: 350px;
+    background-color: rgb(8, 103, 22);
+    /* all border properties in single line */
+    border: 2px solid greenyellow;
+    /* redius to round border */
+    border-radius: 20px;
+    text-align: justify;
+    /* padding */
+    padding-left: 10px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+
+
+
+}
+
+button{
+    height: 30px;
+    background-color: rgb(218, 142, 28);
+    border-radius: 30px;
+    margin: 50px;
+}
+
+
+#div1{
+    /* background-image: url("sun.jpg"); */
+    background-size: cover;
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    position: static;
+}
+#div2{
+    background-color: green;
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+   position: relative;   /* related position to it self */
+    top: 20px;
+}
+#div3{
+    background-color: blue;
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    position: absolute;   /* related position to it clasest ancetor */
+    top: 20px;
+}
+#div4{
+    background-color: rgb(209, 225, 62);
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    position: fixed;   /* related to browser fixed position */
+    top: 0;
+    left: 0;
+}
+#div5{
+    background-color: rgb(188, 43, 123);
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    position: sticky;   /* psition based on users score position */
+    top: 0;
+    left: 20px;
+}
+
+
