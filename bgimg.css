@@ -1,0 +1,31 @@
+body{
+    background-image: url("pexels-vraj-shah-924869.jpg");
+    background-size: cover;
+    color: aliceblue;
+}
+
+
+div{
+    height: 200px;
+    width: 200px;
+     background-image: url("sun.jpg"); 
+    display: inline-block;
+    
+
+}
+
+#div1{
+
+    /* background-image: url("sun.jpeg"); */
+    background-size: contain;
+}
+#div2{
+
+    /* background-image: url("sun.jpeg"); */
+    background-size: cover;
+}
+#div3{
+
+    /* background-image: url("sun.jpeg"); */
+    background-size: auto;
+}
